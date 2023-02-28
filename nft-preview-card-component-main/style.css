@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card
+{
+    width: 25vw;
+    height: 67vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding: 2rem;
+    box-shadow: 0.3rem 1rem 1rem rgb(19, 33, 95);
+}
+
+div.card img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+div.titulo
+{
+    color: white;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+div.texto
+{
+    max-width: 16rem;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+div.ethdia
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+div.ethdia img
+{
+    max-width: 100%;
+    height: 100%;
+}
+
+div.ethereum
+{
+    display: flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+}
+
+div.dias
+{
+    display: flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
